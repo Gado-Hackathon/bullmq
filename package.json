@@ -1,0 +1,21 @@
+{
+  "name": "bullmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Gado-Hackathon/bullmq.git",
+  "author": "Mikéias Azevedo <contato.mikeiasgabriel@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.3",
+    "nodemon": "^2.0.12",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {}
+}
